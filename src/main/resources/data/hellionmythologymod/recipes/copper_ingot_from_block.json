@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients": 
+	[
+		{"item": "hellionmythologymod:copper_block"}
+	],
+	
+	"result": 
+	{ 
+		"item": "hellionmythologymod:copper_ingot",
+		"count": 9
+	}
+	
+}

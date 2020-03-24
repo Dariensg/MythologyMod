@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		"I I",
+		"   "
+	],
+	
+	"key":
+	{
+		"I": { "item": "hellionmythologymod:copper_ingot" }
+	},
+	
+	"result": { "item": "hellionmythologymod:copper_helmet" }
+}

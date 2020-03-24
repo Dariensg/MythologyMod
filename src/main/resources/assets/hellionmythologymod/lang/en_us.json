@@ -1,0 +1,68 @@
+{
+	//Start Items
+	"item.hellionmythologymod.copper_ingot": "Copper Ingot", //Metals
+		"item.hellionmythologymod.copper_nugget": "Copper Nugget",
+	"item.hellionmythologymod.aluminum_ingot": "Aluminum Ingot",
+		"item.hellionmythologymod.aluminum_nugget": "Aluminum Nugget",
+	"item.hellionmythologymod.bronze_ingot": "Bronze Ingot",
+		"item.hellionmythologymod.bronze_nugget": "Bronze Nugget",
+	"item.hellionmythologymod.tin_ingot": "Tin Ingot",
+		"item.hellionmythologymod.tin_nugget": "Tin Nugget",
+	"item.hellionmythologymod.brass_ingot": "Brass Ingot",
+		"item.hellionmythologymod.brass_nugget": "Brass Nugget",
+		
+	"item.hellionmythologymod.copper_axe": "Copper Axe", //Tools
+		"item.hellionmythologymod.copper_hoe": "Copper Hoe",
+		"item.hellionmythologymod.copper_pickaxe": "Copper Pickaxe",
+		"item.hellionmythologymod.copper_shovel": "Copper Shovel",
+		"item.hellionmythologymod.copper_sword": "Copper Sword",
+	"item.hellionmythologymod.bronze_axe": "Bronze Axe",
+		"item.hellionmythologymod.bronze_hoe": "Bronze Hoe",
+		"item.hellionmythologymod.bronze_pickaxe": "Bronze Pickaxe",
+		"item.hellionmythologymod.bronze_shovel": "Bronze Shovel",
+		"item.hellionmythologymod.bronze_sword": "Bronze Sword",
+	"item.hellionmythologymod.brass_axe": "Brass Axe",
+		"item.hellionmythologymod.brass_hoe": "Brass Hoe",
+		"item.hellionmythologymod.brass_pickaxe": "Brass Pickaxe",
+		"item.hellionmythologymod.brass_shovel": "Brass Shovel",
+		"item.hellionmythologymod.brass_sword": "Brass Sword",
+		
+	"item.hellionmythologymod.copper_helmet": "Copper Helmet", //Armor
+		"item.hellionmythologymod.copper_chestplate": "Copper Chestplate",
+		"item.hellionmythologymod.copper_leggings": "Copper Leggings",
+		"item.hellionmythologymod.copper_boots": "Copper Boots",
+	"item.hellionmythologymod.bronze_helmet": "Bronze Helmet",
+		"item.hellionmythologymod.bronze_chestplate": "Bronze Chestplate",
+		"item.hellionmythologymod.bronze_leggings": "Bronze Leggings",
+		"item.hellionmythologymod.bronze_boots": "Bronze Boots",
+	"item.hellionmythologymod.brass_helmet": "Brass Helmet",
+		"item.hellionmythologymod.brass_chestplate": "Brass Chestplate",
+		"item.hellionmythologymod.brass_leggings": "Brass Leggings",
+		"item.hellionmythologymod.brass_boots": "Brass Boots",
+		
+	"item.hellionmythologymod.electrical_powder": "Electrical Powder", //Miscellaneous
+	"item.hellionmythologymod.condensed_lightning": "Condensed Lightning",
+		
+	//Start Creative Tabs
+	"itemGroup.mythologyItems": "Mythology Items",
+	"itemGroup.mythologyBlocks": "Mythology Blocks",
+	"itemGroup.mythologyTools": "Mythology Tools",
+	"itemGroup.mythologyArmor": "Mythology Armor",
+	
+	//Start Blocks
+	"block.hellionmythologymod.copper_ore": "Copper Ore", //Metals
+		"block.hellionmythologymod.copper_block": "Copper Block",
+	"block.hellionmythologymod.aluminum_ore": "Aluminum Ore",
+		"block.hellionmythologymod.aluminum_block": "Aluminum Block",
+	"block.hellionmythologymod.bronze_block": "Bronze Block",
+	"block.hellionmythologymod.tin_ore": "Tin Ore",
+		"block.hellionmythologymod.tin_block": "Tin Block",
+	"block.hellionmythologymod.brass_block": "Brass Block",
+	
+	//Miscellaneous Ores
+	"block.hellionmythologymod.electric_ore": "Electrically Infused Ore",
+	
+	//Miscellaneous Blocks
+	"block.hellionmythologymod.cloud_block": "Cloud",
+	"block.hellionmythologymod.ethereal_light": "Ethereal Light"
+}
