@@ -35,6 +35,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
+//Testing changing things
+
 @Mod("hellionmythologymod")
 public class MythologyMod 
 {
