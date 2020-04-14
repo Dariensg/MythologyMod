@@ -82,7 +82,7 @@ public class MythologyMod
 					//Item Initialization
 					
 					//test comment
-					
+
 					//Metals
 					ItemList.copper_ingot = new Item(new Item.Properties().group(mythologyItems)).setRegistryName(location("copper_ingot")),  
 							ItemList.copper_nugget = new Item(new Item.Properties().group(mythologyItems)).setRegistryName(location("copper_nugget")),
