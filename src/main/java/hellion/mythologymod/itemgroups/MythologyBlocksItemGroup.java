@@ -1,6 +1,6 @@
 package hellion.mythologymod.itemgroups;
 
-import lists.BlockList;
+import lists.MythologyBlocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -13,7 +13,7 @@ public class MythologyBlocksItemGroup extends ItemGroup {
 
 	@Override
 	public ItemStack createIcon() {
-		return new ItemStack(Item.BLOCK_TO_ITEM.get(BlockList.ethereal_light));
+		return new ItemStack(Item.BLOCK_TO_ITEM.get(MythologyBlocks.ethereal_light));
 	}
 
 }

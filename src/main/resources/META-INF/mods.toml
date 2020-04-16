@@ -1,11 +1,11 @@
 modLoader="javafml" #mandatory
-loaderVersion="[25,)" #mandatory (24 is current forge version)
+loaderVersion="[28,)" #mandatory (24 is current forge version)
 credits="Thanks for this example mod goes to Java" #optional
 authors="HellionGames" #optional
 
 [[mods]] #mandatory
 modId="hellionmythologymod" #mandatory
-version="0.1" #mandatory
+version="0.1.0" #mandatory
 displayName="Hellion's Mythology Mod" #mandatory
 description='''
 This is a long form description of the mod. You can write whatever you want here
@@ -17,12 +17,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magn
 [[dependencies.hellionmythologymod]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[25,)" #mandatory
+    versionRange="[28,)" #mandatory
     ordering="NONE"
     side="BOTH"
 [[dependencies.examplemod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.13.2]"
+    versionRange="[1.14.4]"
     ordering="NONE"
     side="BOTH"

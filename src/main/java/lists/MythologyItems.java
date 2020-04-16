@@ -2,7 +2,7 @@ package lists;
 
 import net.minecraft.item.Item;
 
-public class ItemList 
+public class MythologyItems 
 {
 	public static Item copper_ingot; //Start Metals
 		public static Item copper_nugget;
@@ -61,4 +61,7 @@ public class ItemList
 	
 	public static Item cloud_block; //Miscellaneous
 	public static Item ethereal_light;
+	
+	//Entity Egg
+	public static Item mythology_entity_egg;
 }

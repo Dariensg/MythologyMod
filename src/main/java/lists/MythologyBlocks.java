@@ -2,7 +2,7 @@ package lists;
 
 import net.minecraft.block.Block;
 
-public class BlockList 
+public class MythologyBlocks 
 {
 	public static Block copper_ore; //Metal
 		public static Block copper_block;

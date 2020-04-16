@@ -1,18 +1,19 @@
 package lists;
 
-import hellion.mythologymod.MythologyMod;
-import net.minecraft.inventory.EntityEquipmentSlot;
+import com.hellion.mythologymod.MythologyMod;
+
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 
-public enum ArmorMaterialList implements IArmorMaterial
+public enum MythologyArmorMaterials implements IArmorMaterial
 {
-	copper("copper", 100, new int[] {2, 4, 3, 2}, 7, ItemList.copper_ingot, "item.armor.equip_iron", 0.0f),
-	bronze("bronze", 300, new int[] {2, 7, 6, 2}, 15, ItemList.bronze_ingot, "item.armor.equip_iron", 0.0f),
-	brass("brass", 260, new int[] {2, 7, 5, 2}, 10, ItemList.brass_ingot, "item.armor.equip_iron", 0.0f);
+	copper("copper", 100, new int[] {2, 4, 3, 2}, 7, MythologyItems.copper_ingot, "item.armor.equip_iron", 0.0f),
+	bronze("bronze", 300, new int[] {2, 7, 6, 2}, 15, MythologyItems.bronze_ingot, "item.armor.equip_iron", 0.0f),
+	brass("brass", 260, new int[] {2, 7, 5, 2}, 10, MythologyItems.brass_ingot, "item.armor.equip_iron", 0.0f);
 	
 	private static final int[] max_damage_array = new int[]{13, 15, 16, 11};
 	private String name, equipSound;
@@ -21,7 +22,7 @@ public enum ArmorMaterialList implements IArmorMaterial
 	private int[] damageReductionAmounts;
 	private float toughness;
 	
-	private ArmorMaterialList(String name, int durability, int [] damageReductionAmounts, int enchantability, Item repairItem, String equipSound, float toughness)
+	private MythologyArmorMaterials(String name, int durability, int [] damageReductionAmounts, int enchantability, Item repairItem, String equipSound, float toughness)
 	{
 		this.name = name;
 		this.equipSound = equipSound;
@@ -33,12 +34,12 @@ public enum ArmorMaterialList implements IArmorMaterial
 	}
 
 	@Override
-	public int getDamageReductionAmount(EntityEquipmentSlot slot) {
+	public int getDamageReductionAmount(EquipmentSlotType slot) {
 		return this.damageReductionAmounts[slot.getIndex()];
 	}
 
 	@Override
-	public int getDurability(EntityEquipmentSlot slot) {
+	public int getDurability(EquipmentSlotType slot) {
 		return max_damage_array[slot.getIndex()] * this.durability;
 	}
 
@@ -49,7 +50,7 @@ public enum ArmorMaterialList implements IArmorMaterial
 
 	@Override
 	public String getName() {
-		return MythologyMod.modid + ":" + this.name;
+		return MythologyMod.MODID + ":" + this.name;
 	}
 
 	@Override

@@ -1,6 +1,6 @@
 package hellion.mythologymod.itemgroups;
 
-import lists.ItemList;
+import lists.MythologyItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
@@ -12,7 +12,7 @@ public class MythologyItemsItemGroup extends ItemGroup{
 
 	@Override
 	public ItemStack createIcon() {
-		return new ItemStack(ItemList.copper_ingot);
+		return new ItemStack(MythologyItems.copper_ingot);
 	}
 
 }
