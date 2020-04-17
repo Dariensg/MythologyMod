@@ -63,5 +63,5 @@ public class MythologyItems
 	public static Item ethereal_light;
 	
 	//Entity Egg
-	public static Item mythology_entity_egg;
+	public static Item centaur_entity_egg;
 }

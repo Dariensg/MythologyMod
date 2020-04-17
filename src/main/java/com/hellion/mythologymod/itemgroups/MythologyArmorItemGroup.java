@@ -1,4 +1,4 @@
-package hellion.mythologymod.itemgroups;
+package com.hellion.mythologymod.itemgroups;
 
 import lists.MythologyItems;
 import net.minecraft.item.ItemGroup;

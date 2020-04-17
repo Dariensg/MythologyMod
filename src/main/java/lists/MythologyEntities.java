@@ -14,13 +14,13 @@ import net.minecraftforge.event.RegistryEvent;
 
 public class MythologyEntities 
 {
-	public static EntityType<?> MYTHOLOGY_ENTITY = EntityType.Builder.create(CentaurEntity::new, EntityClassification.CREATURE).build(MythologyModRegistries.MODID + "mythology_entity").setRegistryName(MythologyModRegistries.location("mythology_entity"));    
+	public static EntityType<?> MYTHOLOGY_ENTITY = EntityType.Builder.create(CentaurEntity::new, EntityClassification.CREATURE).build(MythologyModRegistries.MODID + "centaur_entity").setRegistryName(MythologyModRegistries.location("centaur_entity"));    
 	
 	public static void registerEntitySpawnEggs(final RegistryEvent.Register<Item> event)
 	{
 		event.getRegistry().registerAll
 		(
-			MythologyItems.mythology_entity_egg = registerEntitySpawnEgg(MYTHOLOGY_ENTITY, 0x03fceb, 0x39fc03, "mythology_entity_egg")
+			MythologyItems.centaur_entity_egg = registerEntitySpawnEgg(MYTHOLOGY_ENTITY, 0x03fceb, 0x39fc03, "centaur_entity_egg")
 		);
 	}
 	

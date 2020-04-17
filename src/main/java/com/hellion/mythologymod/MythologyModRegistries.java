@@ -2,9 +2,9 @@ package com.hellion.mythologymod;
 
 import org.apache.logging.log4j.Logger;
 
-import hellion.mythologymod.blocks.BlockCloud;
-import hellion.mythologymod.items.CustomAxeItem;
-import hellion.mythologymod.items.CustomPickaxeItem;
+import com.hellion.mythologymod.blocks.BlockCloud;
+import com.hellion.mythologymod.items.CustomAxeItem;
+import com.hellion.mythologymod.items.CustomPickaxeItem;
 import lists.MythologyArmorMaterials;
 import lists.MythologyBlocks;
 import lists.MythologyEntities;

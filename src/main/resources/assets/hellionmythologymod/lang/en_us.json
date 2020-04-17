@@ -42,6 +42,10 @@
 		
 	"item.hellionmythologymod.electrical_powder": "Electrical Powder", //Miscellaneous
 	"item.hellionmythologymod.condensed_lightning": "Condensed Lightning",
+	
+	"item.hellionmythologymod.centaur_entity_egg": "Centaur Egg", //Entity Eggs
+	
+	"entity.hellionmythologymod.centaur_entity": "Centaur", //Entities
 		
 	//Start Creative Tabs
 	"itemGroup.mythologyItems": "Mythology Items",

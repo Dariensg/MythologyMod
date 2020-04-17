@@ -7,6 +7,7 @@ public class OregenConfig
 	public static ForgeConfigSpec.IntValue copper_chance;
 	public static ForgeConfigSpec.IntValue aluminum_chance;
 	public static ForgeConfigSpec.IntValue tin_chance;
+	public static ForgeConfigSpec.IntValue cloud_chance;
 	
 	public static ForgeConfigSpec.BooleanValue generate_overworld;
 	
@@ -20,11 +21,15 @@ public class OregenConfig
 		
 		aluminum_chance = server
 				.comment("the maximum number of ore veins of aluminum ore in a chunk")
-				.defineInRange("oregen.aluminum_chance", 15, 1, 100000);
+				.defineInRange("oregen.aluminum_chance", 10, 1, 100000);
 		
 		tin_chance = server
 				.comment("the maximum number of ore veins of tin ore in a chunk")
-				.defineInRange("oregen.tin_chance", 20, 1, 100000);
+				.defineInRange("oregen.tin_chance", 10, 1, 100000);
+		
+		cloud_chance = server
+				.comment("the maximum number of clouds to generate in a chunk")
+				.defineInRange("oregen.cloud_chance", 3, 1, 15);
 		
 		generate_overworld = server
 				.comment("Decide if you want the ores to generate in the overworld")

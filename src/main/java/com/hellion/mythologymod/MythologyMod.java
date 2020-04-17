@@ -6,11 +6,11 @@ import org.apache.logging.log4j.Logger;
 import com.hellion.mythologymod.client.renders.MythologyRenderRegistry;
 import com.hellion.mythologymod.config.Config;
 
-import hellion.mythologymod.itemgroups.MythologyArmorItemGroup;
-import hellion.mythologymod.itemgroups.MythologyBlocksItemGroup;
-import hellion.mythologymod.itemgroups.MythologyItemsItemGroup;
-import hellion.mythologymod.itemgroups.MythologyToolsItemGroup;
-import hellion.mythologymod.world.OreGeneration;
+import com.hellion.mythologymod.itemgroups.MythologyArmorItemGroup;
+import com.hellion.mythologymod.itemgroups.MythologyBlocksItemGroup;
+import com.hellion.mythologymod.itemgroups.MythologyItemsItemGroup;
+import com.hellion.mythologymod.itemgroups.MythologyToolsItemGroup;
+import com.hellion.mythologymod.world.OreGeneration;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.ModLoadingContext;

@@ -5,6 +5,7 @@ import com.hellion.mythologymod.entities.CentaurEntity;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.model.RendererModel;
 import net.minecraft.entity.Entity;
+import net.minecraft.util.math.MathHelper;
 
 /**
  * ModelCow - Either Mojang or a mod author
@@ -98,5 +99,18 @@ public class CentaurModel extends EntityModel<CentaurEntity> {
         RendererModel.rotateAngleX = x;
         RendererModel.rotateAngleY = y;
         RendererModel.rotateAngleZ = z;
+    }
+    
+    @Override
+    public void setRotationAngles(CentaurEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch, float scaleFactor) 
+    {
+    	this.FrontLeftLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
+    	this.RearLeftLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
+    	
+    	this.FrontRightLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
+    	this.RearRightLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
+    	
+    	this.VillagerHead.rotateAngleY = netHeadYaw * 0.017453292F;
+    	this.VillagerHead.rotateAngleX = headPitch * 0.017453292F;
     }
 }

@@ -1,4 +1,4 @@
-package hellion.mythologymod.blocks;
+package com.hellion.mythologymod.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.util.BlockRenderLayer;

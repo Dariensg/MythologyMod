@@ -1,4 +1,4 @@
-package hellion.mythologymod.items;
+package com.hellion.mythologymod.items;
 
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.PickaxeItem;
