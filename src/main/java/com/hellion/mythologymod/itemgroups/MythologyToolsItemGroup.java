@@ -1,6 +1,7 @@
 package com.hellion.mythologymod.itemgroups;
 
-import lists.MythologyItems;
+import com.hellion.mythologymod.init.MythologyItems;
+
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 

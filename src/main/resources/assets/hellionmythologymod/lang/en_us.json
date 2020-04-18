@@ -44,8 +44,14 @@
 	"item.hellionmythologymod.condensed_lightning": "Condensed Lightning",
 	
 	"item.hellionmythologymod.centaur_entity_egg": "Centaur Egg", //Entity Eggs
+	"item.hellionmythologymod.unicorn_entity_egg": "Unicorn Egg",
+	"item.hellionmythologymod.pegasus_entity_egg": "Pegasus Egg",
 	
 	"entity.hellionmythologymod.centaur_entity": "Centaur", //Entities
+	"entity.hellionmythologymod.unicorn_entity": "Unicorn",
+	"entity.hellionmythologymod.pegasus_entity": "Pegasus", 
+	
+	"biome.hellionmythologymod.olympus_biome": "Mt. Olympus",//Biomes
 		
 	//Start Creative Tabs
 	"itemGroup.mythologyItems": "Mythology Items",

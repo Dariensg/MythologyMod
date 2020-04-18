@@ -3,13 +3,16 @@ package com.hellion.mythologymod;
 import org.apache.logging.log4j.Logger;
 
 import com.hellion.mythologymod.blocks.BlockCloud;
+import com.hellion.mythologymod.init.MythologyArmorMaterials;
+import com.hellion.mythologymod.init.MythologyBiomes;
+import com.hellion.mythologymod.init.MythologyBlocks;
+import com.hellion.mythologymod.init.MythologyEntities;
+import com.hellion.mythologymod.init.MythologyItems;
+import com.hellion.mythologymod.init.MythologyToolMaterials;
 import com.hellion.mythologymod.items.CustomAxeItem;
 import com.hellion.mythologymod.items.CustomPickaxeItem;
-import lists.MythologyArmorMaterials;
-import lists.MythologyBlocks;
-import lists.MythologyEntities;
-import lists.MythologyItems;
-import lists.MythologyToolMaterials;
+import com.hellion.mythologymod.world.biomes.OlympusBiome;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -23,6 +26,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ShovelItem;
 import net.minecraft.item.SwordItem;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.world.biome.Biome;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -151,12 +155,26 @@ public class MythologyModRegistries
 	{
 		event.getRegistry().registerAll
 		(
-			MythologyEntities.MYTHOLOGY_ENTITY	
+			MythologyEntities.CENTAUR_ENTITY,	
+			MythologyEntities.UNICORN_ENTITY,
+			MythologyEntities.PEGASUS_ENTITY
 		);
 		
 		MythologyEntities.registerEntityWorldSpawns();
 		
 	}
+	
+	@SubscribeEvent
+	public static void registerBiomes(final RegistryEvent.Register<Biome> event) //Biome Registry
+	{
+		event.getRegistry().registerAll
+		(
+				MythologyBiomes.olympus_biome = new OlympusBiome()
+		);
+		
+		MythologyBiomes.registerBiomes();
+	}
+	
 	
 	public static ResourceLocation location(String name) //Simplifies RegistryName
 	{

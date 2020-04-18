@@ -1,4 +1,4 @@
-package lists;
+package com.hellion.mythologymod.init;
 
 import net.minecraft.item.Item;
 
@@ -64,4 +64,6 @@ public class MythologyItems
 	
 	//Entity Egg
 	public static Item centaur_entity_egg;
+	public static Item unicorn_entity_egg;
+	public static Item pegasus_entity_egg;
 }

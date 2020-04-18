@@ -1,15 +1,13 @@
-package com.hellion.mythologymod.world;
+package com.hellion.mythologymod.world.gen;
 
 import com.hellion.mythologymod.config.OregenConfig;
+import com.hellion.mythologymod.init.MythologyBlocks;
 
-import lists.MythologyBlocks;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage.Decoration;
-import net.minecraft.world.gen.feature.BlockBlobConfig;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.minecraft.world.gen.feature.OreFeatureConfig.FillerBlockType;
-import net.minecraft.world.gen.feature.SphereReplaceConfig;
 import net.minecraft.world.gen.placement.CountRangeConfig;
 import net.minecraft.world.gen.placement.Placement;
 import net.minecraftforge.registries.ForgeRegistries;

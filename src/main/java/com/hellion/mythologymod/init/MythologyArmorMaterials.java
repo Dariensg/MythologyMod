@@ -1,4 +1,4 @@
-package lists;
+package com.hellion.mythologymod.init;
 
 import com.hellion.mythologymod.MythologyMod;
 

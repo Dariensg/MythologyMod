@@ -1,4 +1,4 @@
-package lists;
+package com.hellion.mythologymod.init;
 
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.Item;

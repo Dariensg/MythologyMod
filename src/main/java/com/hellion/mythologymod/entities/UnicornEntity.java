@@ -12,13 +12,12 @@ import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.world.World;
 
-public class CentaurEntity extends CreatureEntity
+public class UnicornEntity extends CreatureEntity
 {
 
 	@SuppressWarnings("unchecked")
-	public CentaurEntity(EntityType<? extends CreatureEntity> type, World worldIn) 
-	{
-		super((EntityType<? extends CreatureEntity>) MythologyEntities.CENTAUR_ENTITY, worldIn);
+	public UnicornEntity(EntityType<? extends CreatureEntity> type, World worldIn) {
+		super((EntityType<? extends CreatureEntity>) MythologyEntities.UNICORN_ENTITY, worldIn);
 	}
 	
 	@Override
@@ -34,7 +33,7 @@ public class CentaurEntity extends CreatureEntity
 	protected void registerAttributes()
 	{
 		super.registerAttributes();
-		this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(30.0d);
+		this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(20.0d);
 		this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.5d);
 	}
 
